@@ -1,7 +1,6 @@
 {
-  "name": "Traveloka_DataAutomation_Dispatcher_Gsheet",
-  "projectId": "1164334a-ceaf-4f10-ae95-3b39107edbbe",
-  "description": "Traveloka_DataAutomation_Dispatcher_Gsheet",
+  "name": "Traveloka_DataAutomation_Dispatcher_Bucket",
+  "description": "Traveloka_DataAutomation_Dispatcher_Bucket",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.2]",
@@ -23,7 +22,6 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -45,7 +43,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
