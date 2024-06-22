@@ -25,7 +25,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>855.2,1560</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1043.2,1560</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="72">
@@ -124,9 +124,6 @@
   <Sequence DisplayName="Mail Error" sap:VirtualizedContainerService.HintSize="473.6,1495.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="htmlBody" />
-      <Variable x:TypeArguments="x:String" Name="mailUsrname" />
-      <Variable x:TypeArguments="ss:SecureString" Name="mailPwd" />
-      <Variable x:TypeArguments="x:String" Name="mailServer" />
       <Variable x:TypeArguments="ss:SecureString" Name="pwd" />
       <Variable x:TypeArguments="x:String" Name="usrname" />
     </Sequence.Variables>

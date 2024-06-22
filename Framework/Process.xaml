@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1092.2264150943395,1798.6415094339623</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1043.2,1814.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="100">
@@ -136,15 +136,11 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="496.3018867924528,1733.4339622641508" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="496.8,1749.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="pathUserLog" />
       <Variable x:TypeArguments="s:DateTime" Name="period" />
       <Variable x:TypeArguments="x:String" Name="pathLog" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtUserConfig" />
-      <Variable x:TypeArguments="sd:DataTable" Name="dt_MasterBp" />
-      <Variable x:TypeArguments="sd:DataTable" Name="dt_UserLog" />
-      <Variable x:TypeArguments="x:Int32" Name="currentDate" />
       <Variable x:TypeArguments="x:String" Name="cellRerunFlag" />
       <Variable x:TypeArguments="x:Int32" Default="2" Name="intIndex" />
       <Variable x:TypeArguments="x:String" Name="strSheetIdName" />
